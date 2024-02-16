@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+}
+
+#output {
+  margin-bottom: 20px;
+  font-size: 54px;
+}
+
+button {
+  padding: 20px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#positive {
+  background-color: green;
+}
+
+#zero {
+  background-color: black;
+}
+
+#negative {
+  background-color: red;
+}
